@@ -7,7 +7,7 @@ const app = express();
 
 // Configuração CORS manual + middleware
 app.use(cors({
-  origin: "*", // ou especifique sua origem, ex: "https://seusite.vercel.app"
+  origin: "*",
   methods: ["GET", "POST", "OPTIONS"],
   allowedHeaders: ["Content-Type"]
 }));
